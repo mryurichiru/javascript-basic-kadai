@@ -1,5 +1,5 @@
-const square = (i) => {
-  console.log(i ** 2);
-}
+const square = (i) => i ** 2;
 
-square(10);
+const result = square(10);
+
+console.log(result);
